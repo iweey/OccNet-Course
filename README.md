@@ -1,3 +1,5 @@
+- [2024 各家bev-occ方案进展](https://github.com/Charmve/OccNet-Course/issues/7)
+
 <div align="center">
   <h4>💖 预计2024年4月会开源本课程的标准版部分内容，包含源代码和课件</h4>
 </div>
@@ -24,7 +26,7 @@
 <table align="center" style="table-layout: auto; width: 100%;">
   <tbody>
     <tr>
-        <td width=25%>s
+        <td width=25%>
             <div align="center">
               <img src="src/imgs/course/profile-chapter02.png">
             </div>
@@ -536,6 +538,7 @@ Occupancy网络可以识别移动部分和非移动部分、未知障碍物等�
     <td>
     </td>
     <td>
+      <img src="src/imgs/course/profile-chapter09.png">
     </td>
    </tr>
    <tr>
@@ -550,7 +553,6 @@ Occupancy网络可以识别移动部分和非移动部分、未知障碍物等�
     <td>
     </td>
     <td>
-      <img src="src/imgs/course/profile-chapter09.png">
     </td>
    </tr>
   </tbody>
