@@ -170,10 +170,10 @@ ${PROJECT_DIR}/data/.
 cd ${PROJECT_DIR}
 docker build -t trt85 -f docker/Dockerfile .
 docker run -it --gpus all -v ${PROJECT_DIR}:/workspace/BEVFormer_tensorrt/ \
--v /path/to/can_bus:/workspace/BEVFormer_tensorrt/data/can_bus \
--v /path/to/coco:/workspace/BEVFormer_tensorrt/data/coco \
--v /path/to/nuscenes:/workspace/BEVFormer_tensorrt/data/nuscenes \
---shm-size 8G trt85 /bin/bash
+    -v /path/to/can_bus:/workspace/BEVFormer_tensorrt/data/can_bus \
+    -v /path/to/coco:/workspace/BEVFormer_tensorrt/data/coco \
+    -v /path/to/nuscenes:/workspace/BEVFormer_tensorrt/data/nuscenes \
+    --shm-size 8G trt85 /bin/bash
 
 # in container
 cd /workspace/BEVFormer_tensorrt/TensorRT/build
